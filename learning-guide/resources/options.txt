@@ -1,0 +1,14 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Welcome to the Clojure learning Module!
+(Author: Daniel Gomez)
+
+Here are your options:
+0. Exit
+1. Tail-recursion
+2. Sequences
+3. (partial())
+4. (apply())
+5. How do we perform anonymous functions in Clojure?
+
+Please enter a number:

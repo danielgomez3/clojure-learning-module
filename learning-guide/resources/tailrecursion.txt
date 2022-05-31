@@ -1,0 +1,20 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TAIL RECURSION
+
+1. Perform your operations first
+2. Execute a recursive call
+
+A recursive function is Tail Recursive only when a recursive call is the last thing executed by a function.
+
+Q: Wouldn't adding another call to a function add more to the Call-Stack?
+A: Normally, yes, but in other programming languages besides Clojure, compilers recognize this and will optimize for you!
+
+In Clojure, we can do this ourselves with the (RECUR()) function. Remember, it will only work when it's the last expression.
+(LOOP[]) Needs to be prepended to the top of your function where you want (RECUR()) to go to:
+
+(loop [i 0]
+  (when (< i 3)
+    (println i)
+    (recur (inc i)); loop i will take this value
+))

@@ -1,0 +1,11 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(APPLY())
+
+apply is used to apply an operator to *all* its operands, no matter if different data types*.
+
+(println
+ (apply + 3 2 '(3, 4))
+ )
+
+If apply wasn't used, this would never be possible:

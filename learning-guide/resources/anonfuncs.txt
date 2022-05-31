@@ -1,0 +1,12 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ANONYMOUS FUNCTIONS
+
+done with:
+#()
+'%' for one parameter
+%1 %2 %3 you need to number the '%' for multiple parameters
+'%&' for additional variadic parameters. Example:
+
+#(+ 6 %)
+#(+ %1 %2 %3 %4)
